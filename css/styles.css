@@ -1,186 +1,194 @@
 :root {
-    --text-color:#212121;
-    --active-color:#2196F3;
-    --button-background: #F5F4FA;
-    --button-txt: #FFF;
-    --dark-background:#2F303A;
-    --ordinary-text:#757575;
+  --text-color: #212121;
+  --active-color: #2196f3;
+  --button-background: #f5f4fa;
+  --button-txt: #fff;
+  --dark-background: #2f303a;
+  --ordinary-text: #757575;
 }
 body {
-    color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
-  }
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+}
 
 /* title, text, background and other */
-.we-do.title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
+.we-do.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team.title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team.card.title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.team.card.text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: none;
-    color:var(--ordinary-text);
+.team.card.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--ordinary-text);
 }
 .hero-title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .strength.card.text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--ordinary-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--ordinary-text);
 }
 
 .tile-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
 }
 .works.card.text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: var(--ordinary-text)
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--ordinary-text);
 }
 
 .card {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.bttm,.hero {
-    background-color: var(--dark-background);
-    color: var(--button-txt);
+.bttm,
+.hero {
+  background-color: var(--dark-background);
+  color: var(--button-txt);
 }
-.hero-title,.strength.card.title {
-    text-transform: uppercase;
+.hero-title,
+.strength.card.title {
+  text-transform: uppercase;
 }
-
 
 /*all that connected to links*/
-.link{
-    color: var(--text-color);
+.link {
+  color: var(--text-color);
 }
-.link:hover,.link:focus, .link.current{
-    color:var(--active-color);
+.link:hover,
+.link:focus,
+.link.current {
+  color: var(--active-color);
 }
 
 /* all about logo*/
-.logo,.header-logo,.footer-logo {
-    font-family: 'Ralway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+.logo,
+.header-logo,
+.footer-logo {
+  font-family: "Ralway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 .logo {
-    color:var(--active-color);
+  color: var(--active-color);
 }
 .header-logo {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 .footer-logo {
-    color: var(--button-txt);
+  color: var(--button-txt);
 }
-.logo-link,.link {
-    text-decoration:none;
+.logo-link,
+.link {
+  text-decoration: none;
 }
 /* all about header and footer */
-.header .card.footer .card  {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.header .card.footer .card {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.footer .card  {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+.footer .card {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .footer-adress {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--button-txt);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--button-txt);
 }
-.footer.contacts.card>.link {
-    color: rgba(255, 255, 255, .6);
+.footer.contacts.card > .link {
+  color: rgba(255, 255, 255, 0.6);
 }
 /* all about buttons */
 .btn {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    background-color: var(--button-background);
-    width: 145px;
-    height: 38px;
-    border: 0px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--button-background);
+  width: 145px;
+  height: 38px;
+  border: 0px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.btn:hover,.btn:focus,.hero>.btn {
-    background-color: var(--active-color);
-    color: var(--button-txt);
+.btn:hover,
+.btn:focus,
+.hero > .btn {
+  background-color: var(--active-color);
+  color: var(--button-txt);
 }
-.hero>.btn {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--button-txt);
+.hero > .btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-txt);
 }
