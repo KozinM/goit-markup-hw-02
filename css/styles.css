@@ -12,30 +12,23 @@ body {
 }
 
 /* title, text, background and other */
-.we-do.title {
+.we-do.title,.team.title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.team.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team.card.title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team.card.text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: none;
@@ -44,15 +37,14 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .strength.card.text {
-  /* font-weight: 400; */
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--ordinary-text);
 }
@@ -60,13 +52,13 @@ body {
 .tile-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
 }
 .works.card.text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--ordinary-text);
 }
@@ -80,12 +72,29 @@ body {
   background-color: var(--dark-background);
   color: var(--button-txt);
 }
+.strength.card.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
 .hero-title,
 .strength.card.title {
   text-transform: uppercase;
 }
 
 /*all that connected to links*/
+.header.contacts.card > .link {
+  color: var(--ordinary-text);
+}
+.footer.contacts.card > .link:hover,
+.header.contacts.card > .link:hover,
+.link:hover,
+.link:focus,
+.link.current {
+  color: var(--active-color);
+}
 .footer.contacts.card > .link {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -94,18 +103,12 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.link:hover,
-.link:focus,
-.link.current,
-.footer.contacts.card > .link:hover {
-  color: var(--active-color);
+.logo-link {
+  text-decoration: none;
 }
-.logo-link{
-    text-decoration: none;
-  } 
 
 /* all about logo*/
 .logo,
@@ -114,7 +117,7 @@ body {
   font-family: "Ralway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .logo {
@@ -131,32 +134,32 @@ body {
 .header .card.footer .card {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .footer .card {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 .footer-adress {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--button-txt);
 }
 
 /* all about buttons */
 .btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--button-background);
   border: 0px;
-  margin-bottom: 30px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -167,10 +170,10 @@ body {
   color: var(--button-txt);
 }
 .hero > .btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--button-txt);
